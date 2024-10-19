@@ -1,6 +1,5 @@
 package dev.enderman.math.objects
 
-import dev.enderman.math.objects.MathObject
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
