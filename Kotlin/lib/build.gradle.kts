@@ -59,7 +59,7 @@ publishing {
                     developer {
                         id.set("esotericenderman")
                         name.set("Esoteric Enderman")
-                        email.set("your.email@example.com")
+                        email.set("esotericenderman@gmail.com")
                     }
                 }
 
