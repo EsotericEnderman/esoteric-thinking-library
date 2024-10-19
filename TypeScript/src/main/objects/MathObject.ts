@@ -3,5 +3,5 @@ export abstract class MathObject {
         return otherObject === this;
     };
 
-    abstract clone(): typeof this;
+    public abstract clone(): typeof this;
 }
