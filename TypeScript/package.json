@@ -33,9 +33,9 @@
   },
   "homepage": "https://github.com/EsotericEnderman/esoteric-math-library#readme",
   "devDependencies": {
-    "typescript": "^5.6.3",
+    "@types/jest": "^29.5.13",
     "jest": "^29.7.0",
-    "@types/jest": "^29.5.13"
+    "typescript": "^5.6.3"
   },
   "private": false
 }
