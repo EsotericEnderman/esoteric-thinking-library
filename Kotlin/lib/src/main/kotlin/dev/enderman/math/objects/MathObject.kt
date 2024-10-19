@@ -1,6 +1,8 @@
 package dev.enderman.math.objects
 
 abstract class MathObject : Comparable<MathObject>, Cloneable {
-    abstract override fun equals(other: Any?): Boolean
+    override fun equals(other: Any?): Boolean {
+        return super.equals(other)
+    }
     abstract override fun clone(): MathObject
 }
