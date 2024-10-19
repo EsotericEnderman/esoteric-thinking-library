@@ -1,8 +1,8 @@
 plugins {
     alias(libs.plugins.jvm)
     `java-library`
-    `maven-publish` // Add maven-publish plugin
-    signing          // Add signing plugin
+    `maven-publish`
+    signing
 }
 
 group = "dev.enderman"
