@@ -13,6 +13,7 @@ plugins {
     `java-library`
 }
 
+group = "dev.enderman"
 version = "0.0.1"
 
 repositories {
