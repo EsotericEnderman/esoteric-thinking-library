@@ -7,7 +7,7 @@
   "scripts": {
     "installDependencies": "npm i",
     "compile": "npx tsc",
-    "build": "npm run installDependencies && npm run compile",
+    "build": "npm run installDependencies && npm run test && npm run compile",
     "test": "npx jest"
   },
   "repository": {
