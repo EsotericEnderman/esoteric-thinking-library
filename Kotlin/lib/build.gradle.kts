@@ -45,8 +45,8 @@ publishing {
 
             pom {
                 name.set(rootProject.name)
-                description.set("Your project description here")
-                url.set("https://your.project.url") // Update with your project URL
+                description.set("An extensive math library following a logical and coherent structure with great levels of abstraction.")
+                url.set("https://github.com/EsotericEnderman/esoteric-math-library")
 
                 licenses {
                     license {
@@ -64,9 +64,9 @@ publishing {
                 }
 
                 scm {
-                    connection.set("scm:git:git://github.com/your_username/your_project.git")
-                    developerConnection.set("scm:git:ssh://github.com:your_username/your_project.git")
-                    url.set("https://github.com/your_username/your_project")
+                    connection.set("scm:git:git://github.com/EsotericEnderman/esoteric-math-library.git")
+                    developerConnection.set("scm:git:ssh://github.com:EsotericEnderman/esoteric-math-library.git")
+                    url.set("https://github.com/EsotericEnderman/esoteric-math-library")
                 }
             }
         }
@@ -86,6 +86,6 @@ publishing {
 }
 
 signing {
-    useGpgCmd() // Use GPG for signing the artifacts
+    useGpgCmd()
     sign(publishing.publications["mavenJava"])
 }
