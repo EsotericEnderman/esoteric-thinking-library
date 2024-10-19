@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EsotericEnderman/esoteric-math-library.git"
+    "url": "git+https://github.com/EsotericEnderman/esoteric-math-library.git",
+    "directory": "TypeScript"
   },
   "keywords": [
     "esoteric",
@@ -17,10 +18,15 @@
     "typescript",
     "types"
   ],
-  "author": "Esoteric Enderman",
+  "author": {
+    "name": "Esoteric Enderman",
+    "email": "esotericenderman@gmail.com",
+    "url": "https://github.com/EsotericEnderman"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EsotericEnderman/esoteric-math-library/issues"
+    "url": "https://github.com/EsotericEnderman/esoteric-math-library/issues",
+    "email": "esotericenderman@gmail.com"
   },
   "homepage": "https://github.com/EsotericEnderman/esoteric-math-library#readme"
 }
