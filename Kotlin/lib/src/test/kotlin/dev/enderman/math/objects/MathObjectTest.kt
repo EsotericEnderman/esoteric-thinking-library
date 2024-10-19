@@ -5,19 +5,26 @@ import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
 
 class MathObjectTest {
-    @Test fun someLibraryMethodReturnsTrue() {
-        val myListA = MyList(1, 2)
 
+    private val myListA = MyList(1, 2)
+
+    @Test fun equalityIsReflexive() {
         assertEquals(myListA, myListA, "MathObject equality is reflexive")
+    }
 
+    @Test fun objectsAreNeverEqualToNull() {
         val a: MyList? = null
 
         assertNotEquals(a, myListA, "MathObject instances are never equal to null")
+    }
 
+    @Test fun equalityWorks() {
         val myListB = MyList(1, 2)
 
         assertEquals(myListA, myListB, "MathObject equality should return 'true' when object values are equal")
+    }
 
+    @Test fun equalityAfterCloningWorks() {
         val myListC = MyList(42, 0)
         val myListD = myListC.clone()
 
