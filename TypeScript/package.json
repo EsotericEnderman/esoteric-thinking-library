@@ -34,7 +34,10 @@
   },
   "homepage": "https://github.com/EsotericEnderman/esoteric-math-library#readme",
   "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
     "@types/jest": "^29.5.13",
+    "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
     "typescript": "^5.6.3"
   },
