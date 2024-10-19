@@ -50,5 +50,9 @@ class MathObjectTest {
 
             return other.array == array
         }
+
+        override fun hashCode(): Int {
+            return array.hashCode()
+        }
     }
 }
