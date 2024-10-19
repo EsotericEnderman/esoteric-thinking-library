@@ -13,7 +13,7 @@ class MathObjectTest {
     }
 
     @Test fun objectsAreNeverEqualToNull() {
-        val a: MyList? = null
+        val a: Any? = null
 
         assertNotEquals(a, myListA, "MathObject instances are never equal to null")
     }
