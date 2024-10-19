@@ -2,8 +2,8 @@
   "name": "esoteric-math",
   "version": "0.0.1",
   "description": "An extensive math library following a logical and coherent structure with great levels of abstraction.",
-  "main": "dist/main.js",
-  "types": "dist/main.d.ts",
+  "main": "dist/main/main.js",
+  "types": "dist/main/main.d.ts",
   "scripts": {
     "installDependencies": "npm i",
     "compile": "npx tsc",
