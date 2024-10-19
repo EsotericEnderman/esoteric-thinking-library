@@ -24,7 +24,7 @@ class MathObjectTest {
         assertEquals(myListA, myListB, "MathObject equality should return 'true' when object values are equal")
     }
 
-    @Test fun equalityAfterCloningWorks() {
+    @Test fun cloningCreatesAnEqualObject() {
         val myListC = MyList(42, 0)
         val myListD = myListC.clone()
 
