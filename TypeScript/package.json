@@ -5,7 +5,9 @@
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "installDependencies": "npm i",
+    "compile":  "npx tsc",
+    "build": "npm run installDependencies && npm run compile"
   },
   "repository": {
     "type": "git",
