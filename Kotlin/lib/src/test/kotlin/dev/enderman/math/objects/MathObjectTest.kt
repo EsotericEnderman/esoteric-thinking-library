@@ -1,4 +1,4 @@
-package dev.enderman.math
+package dev.enderman.math.objects
 
 import dev.enderman.math.objects.MathObject
 import kotlin.test.Test
