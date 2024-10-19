@@ -1,6 +1,6 @@
 package dev.enderman.math.objects
 
-interface MathObject {
-    fun equals(otherObject: MathObject?): Boolean
-    fun clone(): MathObject?
+interface MathObject : Comparable<MathObject>, Cloneable {
+    override fun equals(other: Any?): Boolean
+    override fun clone(): MathObject
 }
