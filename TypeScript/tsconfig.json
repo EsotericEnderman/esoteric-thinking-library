@@ -6,6 +6,6 @@
     },
     "exclude": [
         "dist",
-        "src/test",
+        "src/test"
     ]
 }
