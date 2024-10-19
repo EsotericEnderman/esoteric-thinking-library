@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "An extensive math library following a logical and coherent structure with great levels of abstraction.",
   "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
