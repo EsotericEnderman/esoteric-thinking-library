@@ -1,6 +1,6 @@
-package dev.enderman.math.objects;
+package dev.enderman.math.objects
 
-public interface MathObject {
-    boolean equals(MathObject otherObject);
-    MathObject clone();
+interface MathObject {
+    fun equals(otherObject: MathObject?): Boolean
+    fun clone(): MathObject?
 }
