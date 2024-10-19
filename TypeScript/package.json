@@ -8,7 +8,8 @@
     "installDependencies": "npm i",
     "compile": "npx tsc",
     "build": "npm run installDependencies && npm run test && npm run compile",
-    "test": "npx jest"
+    "runTests": "npx jest",
+    "test": "npm run installDependencies && npm run runTests"
   },
   "repository": {
     "type": "git",
