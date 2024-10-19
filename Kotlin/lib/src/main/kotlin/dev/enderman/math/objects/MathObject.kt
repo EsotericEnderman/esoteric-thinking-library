@@ -1,6 +1,6 @@
 package dev.enderman.math.objects
 
-abstract class MathObject : Comparable<MathObject>, Cloneable {
+abstract class MathObject : Cloneable {
     override fun equals(other: Any?): Boolean {
         return super.equals(other)
     }
