@@ -5,4 +5,4 @@
 build
 
 # Ignore VSCode .class files
-lib
+bin
