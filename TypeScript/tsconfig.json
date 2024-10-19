@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-        "rootDir": "src",
+        "rootDir": "src/main",
         "outDir": "dist",
         "declaration": true
     },
     "exclude": [
         "dist",
-        "test",
+        "src/test",
     ]
 }
