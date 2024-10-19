@@ -28,5 +28,8 @@
     "url": "https://github.com/EsotericEnderman/esoteric-math-library/issues",
     "email": "esotericenderman@gmail.com"
   },
-  "homepage": "https://github.com/EsotericEnderman/esoteric-math-library#readme"
+  "homepage": "https://github.com/EsotericEnderman/esoteric-math-library#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }
