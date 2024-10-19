@@ -1,5 +1,5 @@
 package dev.enderman.math.objects
 
 interface MathObject : Cloneable {
-    override fun clone(): MathObject
+    public override fun clone(): MathObject
 }
