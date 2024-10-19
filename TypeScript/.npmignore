@@ -4,3 +4,4 @@ src
 .npmignore
 package-lock.json
 tsconfig.json
+dist/test
