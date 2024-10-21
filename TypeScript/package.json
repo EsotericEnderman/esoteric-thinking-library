@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EsotericEnderman/esoteric-thought-library.git",
+    "url": "git+https://github.com/EsotericThought/library.git",
     "directory": "TypeScript"
   },
   "keywords": [
@@ -33,10 +33,10 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EsotericEnderman/esoteric-thought-library/issues",
+    "url": "https://github.com/EsotericThought/library/issues",
     "email": "esotericenderman@gmail.com"
   },
-  "homepage": "https://github.com/EsotericEnderman/esoteric-thought-library#readme",
+  "homepage": "https://github.com/EsotericThought/library#readme",
   "devDependencies": {
     "@babel/core": "^7.25.8",
     "@babel/preset-env": "^7.25.8",
