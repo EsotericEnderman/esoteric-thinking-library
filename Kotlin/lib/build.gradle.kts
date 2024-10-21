@@ -34,20 +34,3 @@ tasks.named<Jar>("jar") {
 tasks.named<Test>("test") {
     useJUnitPlatform()
 }
-
-jreleaser {
-    gitRootSearch = true
-
-    project {
-        authors = listOf("Esoteric Enderman")
-        license = "MIT"
-        links {
-            homepage = "https://github.com/EsotericThought/library"
-        }
-        inceptionYear = "2024"
-    }
-
-    release {
-
-    }
-}
