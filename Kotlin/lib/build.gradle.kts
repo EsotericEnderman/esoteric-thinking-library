@@ -77,15 +77,9 @@ publishing {
             name = "OSSRH"
             url = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")
 
-            println("OSSRH Username: ${project.findProperty("ossrhUsername")}")
-            println("OSSRH Password: ${project.findProperty("ossrhPassword")}")
-
             credentials {
                 username = project.findProperty("ossrhUsername") as String? ?: ""
                 password = project.findProperty("ossrhPassword") as String? ?: ""
-
-                println(username)
-                println(password)
             }
         }
     }
