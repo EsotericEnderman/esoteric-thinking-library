@@ -48,9 +48,6 @@ jreleaser {
     }
 
     release {
-        github {
-            repoOwner = "EsotericThought"
-            overwrite = true
-        }
+
     }
 }
