@@ -83,6 +83,9 @@ publishing {
             credentials {
                 username = project.findProperty("ossrhUsername") as String? ?: ""
                 password = project.findProperty("ossrhPassword") as String? ?: ""
+
+                println(username)
+                println(password)
             }
         }
     }
