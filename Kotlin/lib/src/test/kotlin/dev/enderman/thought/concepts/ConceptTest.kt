@@ -9,26 +9,26 @@ class ConceptTest {
     private val myListA = MyList(1, 2)
 
     @Test fun equalityIsReflexive() {
-        assertEquals(myListA, myListA, "MathObject equality is reflexive")
+        assertEquals(myListA, myListA, "Concept equality is reflexive")
     }
 
     @Test fun objectsAreNeverEqualToNull() {
         val a: Any? = null
 
-        assertNotEquals(a, myListA, "MathObject instances are never equal to null")
+        assertNotEquals(a, myListA, "Concept instances are never equal to null")
     }
 
     @Test fun equalityWorks() {
         val myListB = MyList(1, 2)
 
-        assertEquals(myListA, myListB, "MathObject equality should return 'true' when object values are equal")
+        assertEquals(myListA, myListB, "Concept equality should return 'true' when concept values are equal")
     }
 
     @Test fun cloningCreatesAnEqualObject() {
         val myListC = MyList(42, 0)
         val myListD = myListC.clone()
 
-        assertEquals(myListD, myListC, "MathObject equality should return 'true' after cloning")
+        assertEquals(myListD, myListC, "Concept equality should return 'true' after cloning")
     }
 
     private class MyList(a: Int, b: Int) : Concept {
