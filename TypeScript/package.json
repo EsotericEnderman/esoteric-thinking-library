@@ -1,5 +1,5 @@
 {
-  "name": "esoteric-thinking",
+  "name": "esoteric-thought",
   "version": "0.0.1",
   "description": "An extensive (mostly) math library following a logical and coherent structure with great levels of abstraction.",
   "main": "dist/main/main.js",
@@ -13,12 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EsotericEnderman/esoteric-thinking-library.git",
+    "url": "git+https://github.com/EsotericEnderman/esoteric-thought-library.git",
     "directory": "TypeScript"
   },
   "keywords": [
     "esoteric",
     "thinking",
+    "thought",
     "math",
     "library",
     "typescript",
@@ -31,10 +32,10 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EsotericEnderman/esoteric-thinking-library/issues",
+    "url": "https://github.com/EsotericEnderman/esoteric-thought-library/issues",
     "email": "esotericenderman@gmail.com"
   },
-  "homepage": "https://github.com/EsotericEnderman/esoteric-thinking-library#readme",
+  "homepage": "https://github.com/EsotericEnderman/esoteric-thought-library#readme",
   "devDependencies": {
     "@babel/core": "^7.25.8",
     "@babel/preset-env": "^7.25.8",
