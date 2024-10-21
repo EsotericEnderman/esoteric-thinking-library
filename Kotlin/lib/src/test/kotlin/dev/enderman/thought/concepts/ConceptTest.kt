@@ -12,7 +12,7 @@ class ConceptTest {
         assertEquals(myListA, myListA, "Concept equality is reflexive")
     }
 
-    @Test fun objectsAreNeverEqualToNull() {
+    @Test fun conceptsAreNeverEqualToNull() {
         val a: Any? = null
 
         assertNotEquals(a, myListA, "Concept instances are never equal to null")
@@ -24,7 +24,7 @@ class ConceptTest {
         assertEquals(myListA, myListB, "Concept equality should return 'true' when concept values are equal")
     }
 
-    @Test fun cloningCreatesAnEqualObject() {
+    @Test fun cloningCreatesAnEqualConcept() {
         val myListC = MyList(42, 0)
         val myListD = myListC.clone()
 

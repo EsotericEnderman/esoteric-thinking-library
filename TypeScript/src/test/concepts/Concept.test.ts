@@ -1,6 +1,6 @@
-import {MathObject} from "../../main/objects/MathObject";
+import { Concept } from "../../main/concepts/Concept";
 
-class MyList extends MathObject {
+class MyList extends Concept {
 
     public readonly list: number[] = [];
 
@@ -9,16 +9,16 @@ class MyList extends MathObject {
         this.list = [a, b];
     }
 
-    public equals(otherObject: MathObject): boolean {
-        if (super.equals(otherObject)) {
+    public equals(otherConcept: Concept): boolean {
+        if (super.equals(otherConcept)) {
             return true;
         }
 
-        if (!(otherObject instanceof MyList)) {
+        if (!(otherConcept instanceof MyList)) {
             return false;
         }
 
-        return otherObject.list[0] === this.list[0] && otherObject.list[1] === this.list[1];
+        return otherConcept.list[0] === this.list[0] && otherConcept.list[1] === this.list[1];
     }
 
     public clone(): this {
@@ -26,7 +26,7 @@ class MyList extends MathObject {
     }
 }
 
-describe("MathObject", () => {
+describe("Concept", () => {
     const listA = new MyList(1, 2);
 
     it("Implements reflexive equality", () => {
@@ -42,7 +42,7 @@ describe("MathObject", () => {
         expect(listA.equals(listB)).toBe(true);
     })
 
-    it("Clones to an equal object", () => {
+    it("Clones to an equal concept", () => {
         const listC = new MyList(42, 0);
         const listD = listC.clone();
         expect(listC.equals(listD)).toBe(true);

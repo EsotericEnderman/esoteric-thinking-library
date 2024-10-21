@@ -1,1 +1,1 @@
-export { MathObject } from "./objects/MathObject";
+export { Concept } from "./concepts/Concept";
