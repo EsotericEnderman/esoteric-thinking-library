@@ -23,7 +23,8 @@
     "math",
     "library",
     "typescript",
-    "types"
+    "types",
+    "ts"
   ],
   "author": {
     "name": "Esoteric Enderman",
