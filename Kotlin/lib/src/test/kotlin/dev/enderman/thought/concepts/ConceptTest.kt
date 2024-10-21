@@ -33,7 +33,7 @@ class ConceptTest {
 
     private class MyList(a: Int, b: Int) : Concept {
 
-        val array: List<Int> = listOf(a, b);
+        val array: List<Int> = listOf(a, b)
 
         override fun clone(): MyList {
             return MyList(array[0], array[1])
