@@ -1,4 +1,4 @@
-package dev.enderman.thinking.concepts
+package dev.enderman.thought.concepts
 
 interface Concept : Cloneable {
     public override fun clone(): Concept

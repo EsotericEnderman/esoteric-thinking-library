@@ -1,4 +1,4 @@
-package dev.enderman.thinking.concepts
+package dev.enderman.thought.concepts
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
