@@ -1,6 +1,6 @@
-signing.keyId=YOUR_KEY_ID
-signing.password=YOUR_PASSWORD
-signing.secretKeyRingFile=/path/to/your/secring.gpg
+signing.keyId=YourKeyId
+signing.password=YourPublicKeyPassword
+signing.secretKeyRingFile=PathToYourKeyRingFile
 
-ossrhUsername=your_sonatype_username
-ossrhPassword=your_sonatype_password
+ossrhUsername=token-username
+ossrhPassword=token-password
