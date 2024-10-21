@@ -46,6 +46,7 @@ publishing {
                 name.set(rootProject.name)
                 description.set("An extensive (mostly) math library following a logical and coherent structure with great levels of abstraction.")
                 url.set("https://github.com/EsotericThought/library")
+                packaging = "jar"
 
                 licenses {
                     license {
