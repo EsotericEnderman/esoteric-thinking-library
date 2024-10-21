@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.jvm)
     `java-library`
     `maven-publish`
-    signing
 }
 
 group = "dev.enderman"
@@ -83,9 +82,4 @@ publishing {
             }
         }
     }
-}
-
-signing {
-    useGpgCmd()
-    sign(publishing.publications["mavenJava"])
 }
