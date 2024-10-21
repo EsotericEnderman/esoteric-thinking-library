@@ -36,6 +36,8 @@ tasks.named<Test>("test") {
 }
 
 jreleaser {
+    gitRootSearch = true
+
     project {
         authors = listOf("Esoteric Enderman")
         license = "MIT"
