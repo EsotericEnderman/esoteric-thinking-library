@@ -24,7 +24,8 @@
     "library",
     "typescript",
     "types",
-    "ts"
+    "ts",
+    "concept"
   ],
   "author": {
     "name": "Esoteric Enderman",
