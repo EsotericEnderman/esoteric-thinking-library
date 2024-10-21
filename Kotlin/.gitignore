@@ -6,6 +6,3 @@ build
 
 # Ignore VSCode .class files
 bin
-
-# Gradle properties. This contains some passwords and such
-gradle.properties
