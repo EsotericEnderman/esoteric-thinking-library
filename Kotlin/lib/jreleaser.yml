@@ -1,0 +1,24 @@
+# Generated with JReleaser 1.14.0 at 2024-10-21T23:04:51.8185624+01:00
+project:
+  name: app
+  version: 1.0.0-SNAPSHOT
+  description: Awesome App
+  longDescription: Awesome App
+  authors:
+    - Duke
+  license: Apache-2.0
+  links:
+    homepage: https://acme.com/app
+  java:
+    groupId: com.acme
+    version: 8
+  inceptionYear: 2024
+
+release:
+  github:
+    owner: duke
+
+distributions:
+  app:
+    artifacts:
+      - path: path/to/{{distributionName}}-{{projectVersion}}.zip
