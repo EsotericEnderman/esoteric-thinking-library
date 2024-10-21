@@ -1,3 +1,3 @@
-# Esoteric Math Library
+# Esoteric Thinking Library
 
-> An extensive math library following a logical and coherent structure with great levels of abstraction.
+> An extensive (mostly) math library following a logical and coherent structure with great levels of abstraction.

@@ -45,13 +45,13 @@ publishing {
 
             pom {
                 name.set(rootProject.name)
-                description.set("An extensive math library following a logical and coherent structure with great levels of abstraction.")
-                url.set("https://github.com/EsotericEnderman/esoteric-math-library")
+                description.set("An extensive (mostly) math library following a logical and coherent structure with great levels of abstraction.")
+                url.set("https://github.com/EsotericEnderman/esoteric-thinking-library")
 
                 licenses {
                     license {
                         name.set("MIT License")
-                        url.set("https://github.com/EsotericEnderman/esoteric-math-library/blob/main/LICENSE")
+                        url.set("https://github.com/EsotericEnderman/esoteric-thinking-library/blob/main/LICENSE")
                     }
                 }
 
@@ -64,9 +64,9 @@ publishing {
                 }
 
                 scm {
-                    connection.set("scm:git:git://github.com/EsotericEnderman/esoteric-math-library.git")
-                    developerConnection.set("scm:git:ssh://github.com:EsotericEnderman/esoteric-math-library.git")
-                    url.set("https://github.com/EsotericEnderman/esoteric-math-library")
+                    connection.set("scm:git:git://github.com/EsotericEnderman/esoteric-thinking-library.git")
+                    developerConnection.set("scm:git:ssh://github.com:EsotericEnderman/esoteric-thinking-library.git")
+                    url.set("https://github.com/EsotericEnderman/esoteric-thinking-library")
                 }
             }
         }
