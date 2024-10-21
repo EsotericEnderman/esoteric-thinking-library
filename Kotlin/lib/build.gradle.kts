@@ -1,7 +1,8 @@
 plugins {
     alias(libs.plugins.jvm)
     `java-library`
-    `maven-publish`
+
+    id("org.jreleaser") version "1.14.0"
 }
 
 group = "dev.enderman"
@@ -34,52 +35,20 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("mavenJava") {
-            from(components["java"])
-            groupId = group.toString()
-            artifactId = rootProject.name
-            version = project.version.toString()
-
-            pom {
-                name.set(rootProject.name)
-                description.set("An extensive (mostly) math library following a logical and coherent structure with great levels of abstraction.")
-                url.set("https://github.com/EsotericThought/library")
-                packaging = "jar"
-
-                licenses {
-                    license {
-                        name.set("MIT License")
-                        url.set("https://github.com/EsotericThought/library/blob/main/LICENSE")
-                    }
-                }
-
-                developers {
-                    developer {
-                        id.set("esotericenderman")
-                        name.set("Esoteric Enderman")
-                        email.set("esotericenderman@gmail.com")
-                    }
-                }
-
-                scm {
-                    connection.set("scm:git:git://github.com/EsotericThought/library.git")
-                    developerConnection.set("scm:git:ssh://github.com:EsotericThought/library.git")
-                    url.set("https://github.com/EsotericThought/library")
-                }
-            }
+jreleaser {
+    project {
+        authors = listOf("Esoteric Enderman")
+        license = "MIT"
+        links {
+            homepage = "https://github.com/EsotericThought/library"
         }
+        inceptionYear = "2024"
     }
 
-    repositories {
-        maven {
-            name = "Sonatype"
-            url = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")  // Correct URL
-            credentials {
-                username = project.findProperty("ossrhUsername") as String? ?: ""
-                password = project.findProperty("ossrhPassword") as String? ?: ""
-            }
+    release {
+        github {
+            repoOwner = "EsotericThought"
+            overwrite = true
         }
     }
 }
