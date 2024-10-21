@@ -1,10 +1,10 @@
-package dev.enderman.math.objects
+package dev.enderman.thinking.concepts
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
 
-class MathObjectTest {
+class ConceptTest {
 
     private val myListA = MyList(1, 2)
 
@@ -31,7 +31,7 @@ class MathObjectTest {
         assertEquals(myListD, myListC, "MathObject equality should return 'true' after cloning")
     }
 
-    private class MyList(a: Int, b: Int) : MathObject {
+    private class MyList(a: Int, b: Int) : Concept {
 
         val array: List<Int> = listOf(a, b);
 
